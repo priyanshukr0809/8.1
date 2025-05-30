@@ -17,7 +17,7 @@ locals {
   redis_primary_key_secret_name = "redis-primary-key"
 
   tags = {
-    Creator = ""
+    Creator = "adeebahmed_khan@epam.com"
   }
   dns_name_label = "mydnslabel"
   dns_prefix     = "${var.name_prefix}-k8s"
