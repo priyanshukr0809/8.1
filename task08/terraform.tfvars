@@ -1,17 +1,17 @@
 location = "Central US"
 
-name_prefix = "cmtr-1up131kj-mod8"
+name_prefix = "cmtr-w6544eus-mod8"
 
-acr_task_name             = "adeeb-acr1-task1"
+acr_task_name             = "priyanshu-acr1-task1"
 acr_sku                   = "Basic"
 platform_os               = "Linux"
 dockerfile_path           = "Dockerfile"
-docker_build_context_path = "https://github.com/adeeb-epam/Terraform5#main:task08/application"
-docker_image_name         = "cmtr-1up131kj-mod8-app"
-context_access_token      = "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"
+docker_build_context_path = "https://github.com/priyanshukr0809/8.1#main:task08/application"
+docker_image_name         = "cmtr-w6544eus-mod8-app"
+context_access_token      = ""
 
 aci_os_type          = "Linux"
-aci_container_name   = "adeeb-aci-container1"
+aci_container_name   = "cmtr-w6544eus-mod8-ci"
 aci_container_cpu    = "1"
 aci_container_memory = "1"
 aci_container_environment_variables = {
