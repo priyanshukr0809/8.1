@@ -8,7 +8,7 @@ platform_os               = "Linux"
 dockerfile_path           = "Dockerfile"
 docker_build_context_path = "https://github.com/priyanshukr0809/8.1#main:task08/application"
 docker_image_name         = "cmtr-w6544eus-mod8-app"
-context_access_token      = ""
+context_access_token      = "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"
 
 aci_os_type          = "Linux"
 aci_container_name   = "cmtr-w6544eus-mod8-ci"
